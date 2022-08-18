@@ -6,6 +6,9 @@ body {
 }
 
 /*nav*/
+#image {
+    padding-right: 650px;
+}
 
 .logo {
    margin-right: 800px;
