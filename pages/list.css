@@ -9,7 +9,7 @@ body {
 
 .logo {
    margin-right: 800px;
-   margin-left: 100px;
+   margin-left: 200px;
 }
 
 .top-nav {
@@ -107,20 +107,16 @@ hr {
 }
 /*section */
 
-section  {
-    width: 100%;
-    height: 900px;
-    background-color: white;
-    display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: space-evenly;
-	align-items: flex-start;
-	align-content: space-around;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
+section {
+        width: 100%;
+        height: 900px;
+        background-color: #ffffff;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        display: flex;
+        flex-direction: row;
+       
+    }
+
 
 /*food list*/
 
@@ -153,6 +149,8 @@ section  {
     background-repeat: no-repeat;
     height:800px;
     width: 500px;
+    margin-top: 100px;
+    margin-left: 50px;
 }
 
 /*todo list */
@@ -162,6 +160,7 @@ section  {
     background-repeat: no-repeat;
     height:800px;
     width: 500px;
+    margin-top: 100px;
 }
 /*places*/
 .list3 {
@@ -170,6 +169,7 @@ section  {
     background-repeat: no-repeat;
     height:800px;
     width: 500px;
+    margin-top: 100px;
        
 }
 
@@ -194,6 +194,8 @@ section  {
         block-size: fit-content;
         height:800px;
         width: 500px;
+        margin-top: 100px;
+        margin-right: 50px;
     }
 
     .list-item4 {
@@ -250,4 +252,68 @@ footer {
 
 .list-items1:hover {
     color: white;
+}
+
+@media only screen 
+and (min-width : 300px)
+and (max-width : 1024px) {
+
+   body {
+    font-size: 10px;
+   }
+
+   .title {
+    font-size: 10px;
+   }
+
+   .list-item {
+    font-size: 10px;
+   }
+
+   .list-item2 {
+    font-size: 10px;
+   }
+
+   .list-item3 {
+    font-size: 10px;
+   }
+
+   .list-item4 {
+    font-size: 10px;
+
+   }
+
+  
+}
+
+@media only screen 
+and (min-width : 600px)
+and (max-width : 800px) {
+
+   body {
+    font-size: 15px;
+   }
+
+   .title {
+    font-size: 15px;
+   }
+
+   .list-item {
+    font-size: 15px;
+   }
+
+   .list-item2 {
+    font-size: 15px;
+   }
+
+   .list-item3 {
+    font-size: 15px;
+   }
+
+   .list-item4 {
+    font-size: 15px;
+
+   }
+
+  
 }
